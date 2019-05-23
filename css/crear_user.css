@@ -1,0 +1,15 @@
+#formulario{
+    text-align: center;
+    border:solid;
+    border-radius: 60px;
+    width: 1000px;
+    margin-left: 300px;
+   font-family: cursive;
+   background-color: aqua;
+}
+
+
+#contacto{
+    text-align: center;
+    margin-top: 100px;
+}

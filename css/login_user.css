@@ -1,0 +1,23 @@
+#loginForm{
+
+    text-align: center;
+    border:solid;
+    border-radius: 60px;
+    width: 1000px;
+    margin-left: 300px;
+   font-family: cursive;
+   height: 300px;
+}
+
+
+#cuenta{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#link{
+    text-align: center;
+    margin-top: 100px;
+
+}

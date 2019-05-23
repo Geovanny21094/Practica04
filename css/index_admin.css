@@ -1,0 +1,23 @@
+#tabla1{
+    border-color: red;
+    border: solid;
+    width: 100px;
+    padding: 10px 40px;
+    margin-left: 300px;
+}
+
+
+
+
+
+
+#contacto{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#mensajes{
+    font-family: cursive;
+    background-color: aqua;
+}

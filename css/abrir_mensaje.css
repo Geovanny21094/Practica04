@@ -1,0 +1,30 @@
+#tabla1{
+    border-color: red;
+    border: solid;
+    width: 100px;
+    padding: 10px 40px;
+    margin-left: 300px;
+}
+
+
+#link{
+    text-align: center;
+}
+
+
+
+#contacto{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+tr{
+    font-family: cursive;
+    background-color: aqua;
+}
+
+td{
+    font-family: cursive;
+    background-color: aqua;
+}

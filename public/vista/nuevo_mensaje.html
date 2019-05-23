@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../../css/formulario.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../js/validaciones.js"> </script>
+</head>
+
+<body>
+
+    <div id="cajon">
+
+    <form id="formulario01" name="formacedula"method="POST" action="../controladores/nuevo_mensaje.php"  >
+        
+        
+
+        <label for="fecha">Fecha (*)</label> <input type="date" id="fecha" name="fecha" value=""
+            placeholder="Ingrese la fecha ..."  /> 
+            <span id="mensajeCedula"></span><br><br>
+
+
+
+        <label for="remitente">Remitente (*)</label> <input type="email" id="remitente" name="remitente" value=""
+            placeholder="Ingrese el remitente..."   />
+        <span id="mensajeApellidos"></span><br><br>
+
+        <label for="destinatario">Destinatario (*)</label> <input type="email" id="destinatario" name="destinatario" value=""
+            placeholder="Ingrese el destinatario ..." onchange="validarEmail(this)" />
+            <span id="mensajeCorreo"></span> <br><br>
+
+        <label for="asunto">Asunto(*)</label> <input type="text" id="asunto" name="asunto" value=""
+            placeholder="Ingrese asunto ..."   /> 
+            <span id="mensajeRango"></span><br>
+
+
+            <label for="mensaje">Mensaje(*)</label> <input type="text" id="mensaje" name="mensaje" value=""
+            placeholder="Ingrese mensaje ..."   /> 
+            <span id="mensajeRango"></span><br>
+
+        <input type="submit" id="enviar" name="enviar" value="Enviar"/>
+         <input type="reset" id="cancelar" name="cancelar" value="Cancelar" /> </form>
+
+        </div>
+
+
+
+
+
+
+
+
+        <footer>
+                <p>© Todos los derechos reservados</p>
+                <p>Angel Geovanny Duchitanga Abad</p>
+                <p>e-mail:<a href="mailto:aduchitanga@est.ups.edu.ec">aduchitanga@est.ups.edu.ec </a></p>
+        </footer>
+</body>
+
+</html>
